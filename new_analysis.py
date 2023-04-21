@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-pip install matplotlib
 import matplotlib.pyplot as plt
 from collections import Counter
 from PIL import Image
