@@ -1,1 +1,3 @@
-# sales-analysis
+matplotlib
+numpy
+pandas
