@@ -1,6 +1,6 @@
 matplotlib
 numpy
 pandas
-matplotlib.pyplot
+plt
 collections
 PIL
