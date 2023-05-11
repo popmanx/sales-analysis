@@ -57,9 +57,9 @@ plt.show()
 counts = Counter(filtered_df['Product type'])
 counts_dict = dict(counts)
 
-ax3.pie(counts_dict.values(), labels = counts_dict.keys(), autopct='%1.2f%%', hatch ='*', startangle=90, shadow=True)
+ax3.pie(counts_dict.values(), labels = counts_dict.keys(), autopct='%1.2f%%', startangle=90, shadow=True)
 ax3.axis('equal')
-ax3.legend(facecolor = 'm', fontsize = 15,)
+ax3.legend(facecolor = 'm', fontsize = 25,)
 ax3.legend(loc='upper right')
 ax3.set_title('Percentage of Product Type Sold')
 
