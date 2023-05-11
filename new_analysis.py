@@ -34,7 +34,7 @@ st.write(filtered_df)
 
 filtered_df["Year"] = pd.to_datetime(filtered_df["Date"], format="%Y-%m-%d").dt.year
 
-fig, (ax1, ax2, ax3,ax4) = plt.subplots(nrows=4, ncols=1, figsize=(16, 35), facecolor = '#beeffa')
+fig, (ax1, ax2, ax3,ax4) = plt.subplots(nrows=4, ncols=1, figsize=(16, 35), facecolor = '#FFFFFF')
 ax1.bar(filtered_df['Year'], filtered_df['Quantity'], edgecolor = '#B2BEB5', color = '#CAA472', hatch='|*', width = 0.3)
 ax1.set_xlabel('Date',fontsize = 20, c ='black') #labeling of our chart x and y label
 ax1.set_ylabel('Quantity Sold',fontsize = 20, c= 'black')
